@@ -1,0 +1,14 @@
+Jedná se o IRC Klienta, který funguje ve dvou módech - Listening a writing mod.
+
+Program je nutné spustit s následujícími  parametry
+
+ {-l|-w} -h <host> [-p <port>] [-c <channel>]
+kde: 
+      -l je listening mod
+      -w je writinig mod
+        jeden z těchto dvou parametrů je POVINNÝ
+      -h <host> kde <host> je název serveru a je POVINNÝ
+      -p <port> kde <port> je čislo portu serveru a je NEPOVINNÝ
+        pokud port není zadán je defaultně nastaven na 6667
+      -c <channel> kde <channel> je název kanálu kam se připojit a je NEPOVINNÝ
+        pokud kanál není zadán, tak se připojí jen na server   
